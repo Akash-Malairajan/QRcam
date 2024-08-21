@@ -5,7 +5,7 @@ import { Text, View, StyleSheet, Button, Linking, TouchableOpacity } from 'react
 import { BarCodeScanner } from 'expo-barcode-scanner';
 
 export default function App() {
-  const [hasPermission, setHasPermission] = useState(null);
+  const [hasPermission, setHasPermission] =  useState(null);
   const [scanned, setScanned] = useState(false);
   const [scannedUrl, setScannedUrl] = useState(null);
 
